@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <div class='content'>
+      <div class='main-first'>
+        <div class='section-1'>
+          <img 
+          src='img/zima blue.jpg'
+          alt='pic'
+          width='55%'
+          class='img-avatar'
+          >
+          <h1 class='h1-name'>Kara Nikita</h1>
+        </div>
+        <div class='section-1'>
+          <h2 class='info-first'>Contact Info</h2>
+          <h3 class='info-second'>contact phone - +7 977 519 18 99</h3>
+          <h3 class='info-second'>basic mail - ia.nikita@mail.ru</h3>
+          <h3 class='info-second'>work mail - smofy15632@gmail.com</h3>    
+          <h3 class='info-second'>contact me directly - <a href='https://vk.com/smofyy'>myVk</a></h3>    
+        </div>
+        <div class='section-1'>
+          <h2>About me</h2>
+          <ul>
+            <li>I am a student of a technical University, studying to be a programmer. I don’t really like the program of study at my University, so I try to teach and study what I like and what I think will be useful to me.</li>
+            <li>I am currently looking for myself. And it seems to me that programming is something I would like to do in the future.</li>
+            <li>I am hardworking and ready to spend all my free time solving complex and interesting tasks.</li>
+            </ul>
+        </div>
+      </div>
+      <div class='main-second'>
+        <div class='section-1'>
+          <h2>IT skills</h2>
+          <ul>
+            <li class='li'>Basic C</li>
+            <li class='li'>Basic Python</li>
+            <li class='li'>Basic HTML</li>
+            <li class='li'>Basic CSS</li>
+            <li class='li'>Basic JS</li>
+            <li class='li'>Basic Git</li>
+          </ul>
+        </div>
+        <div class='section-1'>
+          <h2>Code example(last)</h2>
+          <h3>Python task</h3>
+          <details>
+            <summary>look at my code</summary>
+            <p><code>
+              s = str(input()) l = len(s)-1 c = 1 t = '' <Br>
+              if len(s)==1: t = t +s+str(c)<Br>
+              else: for i in range(0,l): <Br>
+                      if s[i]==s[i+1]: c +=1 <Br>
+                      elif s[i]!=s[i+1]: t = t + s[i]+str(c) c = 1 <Br>
+                  for j in range(l,l+1): <Br>
+                      if s[-1]==s[-2]: t = t +s[j]+str(c) <Br>
+                      elif s[-1]!=s[-2]: t = t +s[j]+str(c) c = 1 <Br>
+              print(t) <Br>
+              </code></p>
+            </details>
+        </div>
+        <div class='section-1'>
+          <h2>Work experience & Education</h2> 
+          <h3>My work experience only applies to online courses that I have taken:</h3>
+          <ol>
+            <li class='link'><a href='https://www.coursera.org/learn/python-osnovy-programmirovaniya'>Python vol.1</a></li>
+            <li class='link'><a href='https://stepik.org/course/67/'>Python vol.2</a></li>
+            <li class='link'><a href='http://pythontutor.ru/'>Python vol.3</a></li>
+            <li class='link'><a href='https://htmlacademy.ru/study'>HTML&CSS vol.1</a></li>
+            <li class='link'><a href='https://stepik.org/course/38218/syllabus'>HTML&CSS vol.2</a></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <div class='content-right'>
+
+    </div>
+  </body>
+</html>
